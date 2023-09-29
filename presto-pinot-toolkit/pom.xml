@@ -14,7 +14,7 @@
 
     <properties>
         <air.main.basedir>${project.parent.basedir}</air.main.basedir>
-        <grpc.version>1.41.0</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
     </properties>
 
     <dependencies>
@@ -384,7 +384,7 @@
         <dependency>
             <groupId>io.perfmark</groupId>
             <artifactId>perfmark-api</artifactId>
-            <version>0.23.0</version>
+            <version>0.25.0</version>
         </dependency>
 
         <dependency>
@@ -717,6 +717,10 @@
                             <dependency>
                                 <groupId>org.slf4j</groupId>
                                 <artifactId>slf4j-jdk14</artifactId>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.apache.logging.log4j</groupId>
+                                <artifactId>log4j-api</artifactId>
                             </dependency>
                         </ignoredDependencies>
                     </configuration>
